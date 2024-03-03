@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h4{
+    font-size: 24px;
+    font-family: 700;
+    /* padding: 25px auto 25px 10px; */
+    margin: 30px;
+    transition: 0.5s all ease;
+}
+h4:hover{
+    transform: scale(1.05);
+    color: grey;
+}
+
+body{
+    font-family: "Roboto Slab", serif;
+    padding: 20px 220px;
+    color: black;
+    background-color: rgb(240,248,255);
+    transition: 0.5s all ease;
+}
+
+
+.item img{
+    height: 320px;
+    width: 530px;
+    transition: 1.2s all ease;
+    transform-style: preserve-3d;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.subMain{
+    display: flex;
+}
+
+
+
+.subMain h2{
+    font-size: 48px;
+    font-weight: 300;
+    transition: 0.5s all ease;
+}
+
+.subMain h2:hover{
+    transform: scale(1.1);
+    border-bottom: 1px solid grey;
+}
+
+.subMain p {
+    font-size: 17.6px;
+    font-weight: 500;
+}
+
+.subMain a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20.8px;
+    font-weight: 800;
+    color: black;
+    padding: 40px 0 0 0;
+}
+
+.subMain a p{
+    font-size: 20.8px;
+    font-weight: 800;
+}
+
+.subMain i{
+    margin-left: 30px;
+    
+}
+
+.subMain a p:hover{
+    color: grey;
+    transition: 0.5s all ease;
+}
+
+.subMain a i:hover{
+    color: grey;
+    transition: 0.5s all ease;
+}
+
+.item:nth-child(1) {
+    width: 40%;
+    padding: 10px;
+    padding-right: 130px;
+}
+
+.info{
+    padding: 38px 0 10px 0;
+}
+
+button{
+    padding: 15px 25px;
+    color: white;
+    background-color: rgb(33,37,41);
+    font-size: 18px;
+    border: none;
+    outline: none;
+    transition: 0.2s all ease;
+}
+
+button:hover{
+    background-color: rgb(68, 68, 68);
+}
+
+.theme{
+    color: rgb(240,248,248);
+    background-color: rgb(33,37,41);
+}
+
+.buttonActive{
+    outline: 1px solid white;
+}
+
+.anchorTheme{
+    color: rgb(240,248,248);
+    background-color: rgb(33,37,41);
+}
+
+img:hover{
+    transform: rotateY(180deg);
+    
+}
